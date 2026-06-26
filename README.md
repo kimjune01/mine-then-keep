@@ -57,5 +57,9 @@ uv run python experiments/phase_diagram.py
 ## Status / roadmap
 
 - [x] controlled phase diagram (MDL vs utility, independent knobs) — the mechanism result
-- [ ] classical-planning domain (Logistics/Blocksworld) — external validity vs surveyed systems
+- [x] Blocksworld external validity (`experiments/blocksworld.py`) — macros mined from solved
+  plans, planning cost = search nodes. The two keep-rules nearly coincide and the gap widens
+  with difficulty: utility/MDL = 1.08× (5 blocks), 1.18× (6), 1.37× (7). Standard planning sits
+  in the agreement corner and drifts toward divergence as the domain hardens.
+- [ ] Logistics + larger Blocksworld — trace the full agreement-to-divergence drift
 - [ ] ARC-AGI-3 within-game cross-level reuse — the live world-model agent demonstration
