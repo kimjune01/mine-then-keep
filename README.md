@@ -63,3 +63,7 @@ uv run python experiments/phase_diagram.py
   in the agreement corner and drifts toward divergence as the domain hardens.
 - [ ] Logistics + larger Blocksworld — trace the full agreement-to-divergence drift
 - [ ] ARC-AGI-3 within-game cross-level reuse — the live world-model agent demonstration
+
+## License
+
+Copyright (C) 2026 June Kim. Licensed under the [GNU Affero General Public License v3.0 or later](LICENSE) (`AGPL-3.0-or-later`), a strong copyleft license: anyone who runs a modified version, including over a network, must make the corresponding source available under the same terms.

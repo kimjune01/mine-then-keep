@@ -2,6 +2,8 @@
 name = "mine-then-keep"
 version = "0.1.0"
 description = "Keep-criterion phase diagram for abstraction-library learning in world-model planning"
+license = "AGPL-3.0-or-later"
+authors = [{ name = "June Kim" }]
 requires-python = ">=3.11"
 dependencies = ["numpy", "matplotlib"]
 
