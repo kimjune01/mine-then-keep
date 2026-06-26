@@ -1,0 +1,9 @@
+[project]
+name = "mine-then-keep"
+version = "0.1.0"
+description = "Keep-criterion phase diagram for abstraction-library learning in world-model planning"
+requires-python = ">=3.11"
+dependencies = ["numpy", "matplotlib"]
+
+[tool.uv]
+package = false
